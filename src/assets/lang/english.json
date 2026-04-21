@@ -1,0 +1,274 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "expertise": "Expertise",
+    "contact": "Contact",
+    "quote": "Free Quote"
+  },
+  "hero": {
+    "title": "We facilitate your trade between Algeria and the world",
+    "subtitle": "Import, export, customs clearance and tailor-made logistics. We handle every step so you can focus on your growth.",
+    "cta1": "Request a free quote",
+    "cta2": "Discover our services"
+  },
+  "services": {
+    "title": "What we do",
+    "subtitle": "Complete solutions, from A to Z.",
+    "description": "A single contact for all your international trade operations.",
+    "stats": {
+      "1": "Years of experience",
+      "1.1": "Recognized expertise",
+      "2": "Satisfied clients",
+      "2.1": "Across Algeria",
+      "3": "Satisfaction rate",
+      "3.1": "Recommend our services"
+    },
+    "items": [
+      {
+        "number": "01",
+        "title": "Goods Import",
+        "description": "Sourcing from Europe, Asia and the Middle East. Supplier selection, price negotiation and complete supply chain management.",
+        "details": "We support you in all stages of your import: search for certified suppliers, negotiation of the best prices, management of international contracts, logistics monitoring and quality control."
+      },
+      {
+        "number": "02",
+        "title": "Algerian Export",
+        "description": "Support for Algerian producers to access international markets. Export documents, certifications and business matching.",
+        "details": "We help Algerian companies export their products to international markets. Our service includes obtaining necessary certifications, preparing export documents, and connecting with foreign buyers."
+      },
+      {
+        "number": "03",
+        "title": "Customs Clearance",
+        "description": "Customs declarations, import license management, tariff classification.",
+        "details": "Our customs experts manage your customs declarations, obtaining import licenses, tariff classification of your goods, and customs dispute management."
+      },
+      {
+        "number": "04",
+        "title": "Logistics & Transport",
+        "description": "Maritime, air or road. Coordination with carriers, cargo tracking and delivery to your warehouse.",
+        "details": "We coordinate the transport of your goods by sea, air or road with real-time tracking and delivery to your warehouse."
+      },
+      {
+        "number": "05",
+        "title": "International Sourcing",
+        "description": "Looking for a reliable supplier? We identify, verify and reference the best partners for your sector.",
+        "details": "We identify and verify reliable suppliers worldwide with supplier audits, certification verification, and commercial terms negotiation."
+      },
+      {
+        "number": "06",
+        "title": "Consulting & Compliance",
+        "description": "Flow optimization, DCP regulation advice, tender assistance and support for foreign investors.",
+        "details": "We offer consulting services to optimize your logistics flows, assist you in international tenders, and guide you in DCP regulations."
+      }
+    ],
+    "cta": {
+      "title": "Ready to work with us?",
+      "subtitle": "Contact our team to discuss your needs and get a tailored solution.",
+      "button": "Let's discuss your project"
+    }
+  },
+  "activities": {
+    "title": "Our domains",
+    "subtitle": "Activity sectors",
+    "description": "We operate in the strategic industries of the Algerian economy.",
+    "sectors": [
+      {
+        "name": "Agri-food",
+        "description": "Cereals, oils, processed products, preserves"
+      },
+      {
+        "name": "Industry & Construction",
+        "description": "Equipment, building materials, tools"
+      },
+      {
+        "name": "Pharmaceutical",
+        "description": "Raw materials, medical devices"
+      },
+      {
+        "name": "Electronics & IT",
+        "description": "Components, telecom equipment, IT materials"
+      },
+      {
+        "name": "Automotive & Parts",
+        "description": "Spare parts, tires, accessories"
+      },
+      {
+        "name": "Cosmetics & Hygiene",
+        "description": "Beauty products, body and household hygiene"
+      },
+      {
+        "name": "Energy & Environment",
+        "description": "Solar equipment, water treatment"
+      },
+      {
+        "name": "Packaging",
+        "description": "Solutions for industry and food"
+      }
+    ],
+    "stats": {
+      "sectors": "Activity sectors",
+      "coverage": "National coverage",
+      "support": "Customer support"
+    },
+    "cta": {
+      "title": "Ready to work with us?",
+      "subtitle": "Contact our team to discuss your needs in your sector of activity.",
+      "button": "Let's discuss your project"
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Whether you have a question, a concrete project or an operational emergency,",
+    "subtitle_highlight": "our team is here for you.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Hours",
+    "availability": "Available Saturday to Thursday, 8am – 6pm (Algiers time)",
+    "form": {
+      "title": "Send us a message",
+      "full_name": "Full name",
+      "company": "Company",
+      "email": "Professional email",
+      "phone": "Phone / WhatsApp",
+      "operation_type": "Operation type",
+      "message": "Describe your need",
+      "submit": "Send message",
+      "select": "Select..."
+    },
+    "map": {
+      "title": "Our location",
+      "address_detail": "Rue Hassiba Ben Bouali, Algiers Center"
+    },
+    "quick_note": {
+      "title": "Need a quick response?",
+      "text": "Call us directly at",
+      "or": "or on WhatsApp"
+    }
+  },
+  "footer": {
+    "company": "Green Arrow",
+    "description": "Expert in logistics and commercial solutions between Algeria and the world. We handle every step so you can focus on your growth.",
+    "quick_links": "Quick links",
+    "our_services": "Our services",
+    "contact": "Contact",
+    "copyright": "All rights reserved",
+    "legal": "Legal notices",
+    "privacy": "Privacy policy",
+    "cookies": "Cookies",
+    "quick_links_items": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "activities": "Activities",
+      "contact": "Contact"
+    },
+    "services_items": {
+      "import": "Goods import",
+      "export": "Algerian export",
+      "customs": "Customs clearance",
+      "logistics": "Logistics & transport",
+      "sourcing": "International sourcing",
+      "consulting": "Consulting & compliance"
+    },
+    "contact_info": {
+      "address": "Rue Hassiba Ben Bouali, Algiers Center, Algeria",
+      "hours": "Saturday to Thursday, 8am – 6pm (Algiers time)"
+    }
+  },
+  "about": {
+    "title": "About us",
+    "subtitle": "Your trusted partner for international trade and logistics in Algeria",
+    "back_home": "Back to home",
+    "mission": {
+      "title": "Our mission",
+      "text1": "We facilitate trade between Algeria and the world by offering complete, transparent and tailor-made logistics solutions.",
+      "text2": "We are committed to being the trusted partner of Algerian and international companies, simplifying their import, export and logistics operations.",
+      "quote": "Your success is our priority. We handle every step so you can focus on your growth.",
+      "author": "Mohammed Amrani, CEO"
+    },
+    "values": {
+      "title": "Our values",
+      "subtitle": "Principles that guide our daily actions",
+      "excellence": "Excellence",
+      "excellence_desc": "We strive for excellence in every service to ensure customer satisfaction.",
+      "integrity": "Integrity",
+      "integrity_desc": "Transparency and honesty are at the heart of our business relationships.",
+      "innovation": "Innovation",
+      "innovation_desc": "We adopt the latest technologies to optimize your logistics flows.",
+      "reactivity": "Responsiveness",
+      "reactivity_desc": "A team available 24/7 to respond to your urgent needs."
+    },
+    "why_choose": {
+      "title": "Why choose Green Arrow?",
+      "text1": "Leveraging our expertise and international network, we offer logistics solutions tailored to each client's specific needs. Our commitment to excellence, transparency and innovation makes us the ideal partner for your trade operations between Algeria and the world.",
+      "text2": "With Green Arrow, benefit from a single contact for all your logistics steps: from import to export, including customs clearance and transport. We simplify your processes to allow you to focus on what matters: your company's growth."
+    },
+    "cta": {
+      "title": "Ready to work with us?",
+      "subtitle": "Contact our team to discuss your needs",
+      "button": "Contact us",
+      "button_back": "Back to home"
+    }
+  },
+  "testimonials": {
+    "title": "What they say about us",
+    "desc-1": "Our clients' satisfaction is",
+    "desc-2": "our greatest reward"
+  },
+
+  "stats": {
+    "1": "of client satisfaction",
+    "2": "of accompanied clients",
+    "3": "of years of expertise",
+    "4": "International partners"
+  },
+  "requestQuote": {
+    "title": "Request a Quote",
+    "subtitle": "Get a personalized quote for your logistics and commercial needs",
+    "back_home": "Back to home",
+    "form": {
+      "title": "Quote Request Form",
+      "subtitle": "Please fill in all required fields to receive your personalized quote",
+      "full_name": "Full name",
+      "full_name_placeholder": "Mohammed Amrani",
+      "company": "Company",
+      "company_placeholder": "Your company name",
+      "email": "Professional email",
+      "email_placeholder": "you@company.com",
+      "phone": "Phone / WhatsApp",
+      "phone_placeholder": "+213 (0)5XX XXX XXX",
+      "service_type": "Service type",
+      "urgency_title": "Urgency level",
+      "origin_country": "Country of origin",
+      "destination_country": "Destination country",
+      "product_type": "Product / Goods type",
+      "product_type_placeholder": "Ex: Electronic equipment, agricultural products...",
+      "quantity": "Quantity / Volume",
+      "quantity_placeholder": "Ex: 1000 units, 20 tons, 2 containers...",
+      "message": "Additional information",
+      "message_placeholder": "Describe your project, specific needs or any additional information...",
+      "select": "Select...",
+      "select_country": "Select a country",
+      "submit": "Submit request",
+      "cancel": "Cancel",
+      "success_message": "Your quote request has been sent successfully. We will contact you within 24 hours.",
+      "service_types": {
+        "import": "Goods import",
+        "export": "Algerian export",
+        "customs": "Customs clearance",
+        "logistics": "Logistics & transport",
+        "sourcing": "International sourcing",
+        "consulting": "Consulting & compliance"
+      },
+      "urgency": {
+        "normal": "Normal (within 48h)",
+        "urgent": "Urgent (within 24h)",
+        "very_urgent": "Very urgent (within 12h)"
+      }
+    },
+    "info_text": "We are committed to processing your request as quickly as possible. One of our experts will contact you to discuss your needs."
+  }
+}

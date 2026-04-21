@@ -1,0 +1,289 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "expertise": "Expertise",
+    "contact": "Contact",
+    "quote": "Devis Gratuit"
+  },
+  "hero": {
+    "title": "Nous facilitons vos échanges commerciaux entre l'Algérie et le monde",
+    "subtitle": "Import, export, dédouanement et logistique sur mesure. Nous gérons chaque étape pour que vous puissiez vous concentrer sur votre croissance.",
+    "cta1": "Demander un devis gratuit",
+    "cta2": "Découvrir nos services"
+  },
+  "services": {
+    "title": "Ce que nous faisons",
+    "subtitle": "Des solutions complètes, de A à Z.",
+    "stats": {
+      "1": "Années d'expérience",
+      "1.1": "Expertise reconue",
+      "2": "Clients satisfaits",
+      "2.1": "À travers l'Algérie",
+      "3": "Taux de satisfaction",
+      "3.1": "Recommandent nos services"
+    },
+    "description": "Un seul interlocuteur pour toutes vos opérations commerciales internationales.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Import de marchandises",
+        "description": "Approvisionnement depuis l'Europe, l'Asie et le Moyen-Orient. Sélection des fournisseurs, négociation des prix et gestion complète de la chaîne.",
+        "details": "Nous vous accompagnons dans toutes les étapes de votre importation : recherche de fournisseurs certifiés, négociation des meilleurs prix, gestion des contrats internationaux, suivi logistique et contrôle qualité."
+      },
+      {
+        "number": "02",
+        "title": "Export algérien",
+        "description": "Accompagnement des producteurs algériens pour accéder aux marchés internationaux. Documents d'exportation, certifications et mise en relation commerciale.",
+        "details": "Nous aidons les entreprises algériennes à exporter leurs produits vers les marchés internationaux. Notre service inclut l'obtention des certifications nécessaires, la préparation des documents d'exportation et la mise en relation avec des acheteurs étrangers."
+      },
+      {
+        "number": "03",
+        "title": "Dédouanement",
+        "description": "Déclarations en douane, gestion des licences d'importation, classement tarifaire.",
+        "details": "Nos experts en douane gèrent vos déclarations en douane, l'obtention des licences d'importation, le classement tarifaire de vos marchandises et la gestion des contentieux douaniers."
+      },
+      {
+        "number": "04",
+        "title": "Logistique & transport",
+        "description": "Maritime, aérien ou terrestre. Coordination avec les transporteurs, suivi de cargaison et livraison jusqu'à votre entrepôt.",
+        "details": "Nous coordonnons le transport de vos marchandises par voie maritime, aérienne ou terrestre avec suivi en temps réel et livraison jusqu'à votre entrepôt."
+      },
+      {
+        "number": "05",
+        "title": "Sourcing international",
+        "description": "Vous cherchez un fournisseur fiable ? Nous identifions, vérifions et référençons les meilleurs partenaires pour votre secteur.",
+        "details": "Nous identifions et vérifions des fournisseurs fiables dans le monde entier avec audit des fournisseurs, vérification des certifications et négociation des conditions commerciales."
+      },
+      {
+        "number": "06",
+        "title": "Conseil & conformité",
+        "description": "Optimisation de vos flux, conseil en réglementation DCP, assistance aux appels d'offres et accompagnement des investisseurs étrangers.",
+        "details": "Nous offrons des services de conseil pour optimiser vos flux logistiques, vous assister dans les appels d'offres internationaux et vous guider dans la réglementation DCP."
+      }
+    ],
+    "cta": {
+      "title": "Prêt à collaborer avec nous ?",
+      "subtitle": "Contactez notre équipe pour discuter de vos besoins et obtenir une solution sur mesure.",
+      "button": "Discutons de votre projet"
+    }
+  },
+  "activities": {
+    "title": "Nos domaines",
+    "subtitle": "Secteurs d'activité",
+    "description": "Nous opérons dans les industries stratégiques de l'économie algérienne.",
+    "sectors": [
+      {
+        "name": "Agroalimentaire",
+        "description": "Céréales, huiles, produits transformés, conserves"
+      },
+      {
+        "name": "Industrie & BTP",
+        "description": "Équipements, matériaux de construction, outillage"
+      },
+      {
+        "name": "Pharmaceutique",
+        "description": "Matières premières, dispositifs médicaux"
+      },
+      {
+        "name": "Électronique & IT",
+        "description": "Composants, équipements télécoms, matériels IT"
+      },
+      {
+        "name": "Automobile & pièces",
+        "description": "Pièces détachées, pneumatiques, accessoires"
+      },
+      {
+        "name": "Cosmétique & hygiène",
+        "description": "Produits de beauté, hygiène corporelle et ménagère"
+      },
+      {
+        "name": "Énergie & environnement",
+        "description": "Équipements solaires, traitement de l'eau"
+      },
+      {
+        "name": "Emballage & packaging",
+        "description": "Solutions pour l'industrie et l'alimentaire"
+      }
+    ],
+
+    "stats": {
+      "sectors": "Secteurs d'activité",
+      "coverage": "Couverture nationale",
+      "support": "Support client"
+    },
+    "cta": {
+      "title": "Prêt à collaborer avec nous ?",
+      "subtitle": "Contactez notre équipe pour discuter de vos besoins dans votre secteur d'activité.",
+      "button": "Discutons de votre projet"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Que vous ayez une question, un projet concret ou une urgence opérationnelle,",
+    "subtitle_highlight": "notre équipe est là pour vous.",
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "availability": "Disponible du Samedi au Jeudi, 8h – 18h (heure d'Alger)",
+    "form": {
+      "title": "Envoyez-nous un message",
+      "full_name": "Nom complet",
+      "full_name_placeholder": "Mohammed Amrani",
+      "company": "Entreprise",
+      "company_placeholder": "Nom de votre société",
+      "email": "Email professionnel",
+      "email_placeholder": "vous@entreprise.dz",
+      "phone": "Téléphone / WhatsApp",
+      "phone_placeholder": "+213 (0)5XX XXX XXX",
+      "operation_type": "Type d'opération",
+      "message": "Décrivez votre besoin",
+      "message_placeholder": "Décrivez votre projet, vos besoins ou vos questions...",
+      "submit": "Envoyer le message",
+      "select": "Sélectionner...",
+      "success_message": "Merci pour votre message. Nous vous contacterons sous 24h.",
+      "operation_types": {
+        "import": "Import",
+        "export": "Export",
+        "customs": "Dédouanement",
+        "logistics": "Logistique & Transport",
+        "sourcing": "Sourcing international",
+        "consulting": "Conseil & Conformité",
+        "other": "Autre"
+      }
+    },
+    "map": {
+      "title": "Notre localisation",
+      "address_detail": "Rue Hassiba Ben Bouali, Alger Centre"
+    },
+    "quick_note": {
+      "title": "Besoin d'une réponse rapide ?",
+      "text": "Appelez-nous directement au",
+      "or": "ou sur WhatsApp"
+    }
+  },
+  "footer": {
+    "company": "FLÈCHE VERTE",
+    "description": "Expert en solutions logistiques et commerciales entre l'Algérie et le monde. Nous gérons chaque étape pour que vous puissiez vous concentrer sur votre croissance.",
+    "quick_links": "Liens rapides",
+    "our_services": "Nos services",
+    "contact": "Contact",
+    "copyright": "Tous droits réservés",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Cookies",
+    "quick_links_items": {
+      "home": "Accueil",
+      "about": "À propos",
+      "services": "Services",
+      "activities": "Activités",
+      "contact": "Contact"
+    },
+    "services_items": {
+      "import": "Import de marchandises",
+      "export": "Export algérien",
+      "customs": "Dédouanement",
+      "logistics": "Logistique & transport",
+      "sourcing": "Sourcing international",
+      "consulting": "Conseil & conformité"
+    },
+    "contact_info": {
+      "address": "Rue Hassiba Ben Bouali, Alger Centre, Algérie",
+      "hours": "Samedi au Jeudi, 8h – 18h (heure d'Alger)"
+    }
+  },
+  "about": {
+    "title": "À propos de nous",
+    "subtitle": "Votre partenaire de confiance pour le commerce international et la logistique en Algérie",
+    "back_home": "Retour à l'accueil",
+    "mission": {
+      "title": "Notre mission",
+      "text1": "Facilitons les échanges commerciaux entre l'Algérie et le monde en offrant des solutions logistiques complètes, transparentes et sur mesure.",
+      "text2": "Nous nous engageons à être le partenaire de confiance des entreprises algériennes et internationales, en simplifiant leurs opérations d'import, d'export et de logistique.",
+      "quote": "Votre succès est notre priorité. Nous gérons chaque étape pour que vous puissiez vous concentrer sur votre croissance.",
+      "author": "Mohammed Amrani, DG"
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "subtitle": "Des principes qui guident notre action au quotidien",
+      "excellence": "Excellence",
+      "excellence_desc": "Nous visons l'excellence dans chaque prestation pour garantir la satisfaction de nos clients.",
+      "integrity": "Intégrité",
+      "integrity_desc": "La transparence et l'honnêteté sont au cœur de nos relations commerciales.",
+      "innovation": "Innovation",
+      "innovation_desc": "Nous adoptons les dernières technologies pour optimiser vos flux logistiques.",
+      "reactivity": "Réactivité",
+      "reactivity_desc": "Une équipe disponible 24/7 pour répondre à vos besoins urgents."
+    },
+    "why_choose": {
+      "title": "Pourquoi choisir FLÈCHE VERTE ?",
+      "text1": "Forts de notre expertise et de notre réseau international, nous offrons des solutions logistiques adaptées aux besoins spécifiques de chaque client. Notre engagement envers l'excellence, la transparence et l'innovation fait de nous le partenaire idéal pour vos opérations commerciales entre l'Algérie et le monde.",
+      "text2": "Avec FLÈCHE VERTE, bénéficiez d'un interlocuteur unique pour toutes vos étapes logistiques : de l'import à l'export, en passant par le dédouanement et le transport. Nous simplifions vos processus pour vous permettre de vous concentrer sur l'essentiel : la croissance de votre entreprise."
+    },
+    "cta": {
+      "title": "Prêt à collaborer avec nous ?",
+      "subtitle": "Contactez notre équipe pour discuter de vos besoins",
+      "button": "Nous contacter",
+      "button_back": "Retour à l'accueil"
+    }
+  },
+  "requestQuote": {
+    "title": "Demander un devis",
+    "subtitle": "Obtenez un devis personnalisé pour vos besoins logistiques et commerciaux",
+    "back_home": "Retour à l'accueil",
+    "form": {
+      "title": "Formulaire de demande de devis",
+      "subtitle": "Veuillez remplir tous les champs obligatoires pour recevoir votre devis personnalisé",
+      "full_name": "Nom complet",
+      "full_name_placeholder": "Mohammed Amrani",
+      "company": "Entreprise",
+      "company_placeholder": "Nom de votre société",
+      "email": "Email professionnel",
+      "email_placeholder": "vous@entreprise.dz",
+      "phone": "Téléphone / WhatsApp",
+      "phone_placeholder": "+213 (0)5XX XXX XXX",
+      "service_type": "Type de service",
+      "urgency_title": "Niveau d'urgence",
+      "origin_country": "Pays d'origine",
+      "destination_country": "Pays de destination",
+      "product_type": "Type de produit/marchandise",
+      "product_type_placeholder": "Ex: Équipements électroniques, produits agricoles...",
+      "quantity": "Quantité / Volume",
+      "quantity_placeholder": "Ex: 1000 unités, 20 tonnes, 2 conteneurs...",
+      "message": "Informations complémentaires",
+      "message_placeholder": "Décrivez votre projet, vos besoins spécifiques ou toute information supplémentaire...",
+      "select": "Sélectionner...",
+      "select_country": "Sélectionner un pays",
+      "submit": "Envoyer la demande",
+      "cancel": "Annuler",
+      "success_message": "Votre demande de devis a été envoyée avec succès. Nous vous contacterons sous 24h.",
+      "service_types": {
+        "import": "Import de marchandises",
+        "export": "Export algérien",
+        "customs": "Dédouanement",
+        "logistics": "Logistique & transport",
+        "sourcing": "Sourcing international",
+        "consulting": "Conseil & conformité"
+      },
+      "urgency": {
+        "normal": "Normal (sous 48h)",
+        "urgent": "Urgent (sous 24h)",
+        "very_urgent": "Très urgent (sous 12h)"
+      }
+    },
+    "info_text": "Nous nous engageons à traiter votre demande dans les plus brefs délais. Un de nos experts vous contactera pour discuter de vos besoins."
+  },
+  "testimonials": {
+    "title": "Ce qu'ils disent de nous",
+    "desc-1": "La satisfaction de nos clients est",
+    "desc-2": "notre plus belle récompense"
+  },
+  "stats": {
+    "1": "de satisfaction client",
+    "2": "clients accompagnés",
+    "3": "années d'expertise",
+    "4": "Partenaires internationaux"
+  }
+}
