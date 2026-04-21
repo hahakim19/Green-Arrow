@@ -110,7 +110,7 @@ const AboutPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-hidden">
       {/* Hero Section with Logo */}
       <div className="relative bg-gradient-to-r from-[#099323] to-[#063a0c] py-16 md:py-24">
         <img
@@ -325,7 +325,10 @@ const AboutPage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
-              onClick={() => navigate("/contact")}
+              onClick={() => {
+                window.scrollTo(0, 0);
+                navigate("/request-quote");
+              }}
               className="px-8 py-3 bg-white text-[#099323] font-semibold rounded-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105"
             >
               {t("about.cta.button")}
