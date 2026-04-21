@@ -3,7 +3,12 @@ import { motion } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18n from "../../i18n";
-
+import arPicDark from "../../assets/logo_nav_ar.dark.svg";
+import arPicLight from "../../assets/logo_nav_ar.light.svg";
+import enPicDark from "../../assets/logo_nav_en.dark.svg";
+import enPicLight from "../../assets/logo_nav_en.light.svg";
+import frPicDark from "../../assets/logo_nav_fr.dark.svg";
+import frPicLight from "../../assets/logo_nav_fr.light.svg";
 const Footer = ({
   heroRef,
   servicesRef,
@@ -59,13 +64,12 @@ const Footer = ({
 
   const getLogo = () => {
     if (language === "ar") {
-      return "/logo_nav_ar.light.svg";
+      return arPicLight;
     } else if (language === "en") {
-      return "/logo_nav_en.light.svg";
+      return enPicLight;
     }
-    return "/logo_nav_fr.light.svg";
+    return frPicLight;
   };
-
   const scrollToSection = (ref) => {
     if (ref && ref.current) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
