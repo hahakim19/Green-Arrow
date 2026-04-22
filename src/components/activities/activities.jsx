@@ -55,8 +55,8 @@ const Activities = () => {
       name: t("activities.sectors.5.name"),
       description: t("activities.sectors.5.description"),
       image:
-        "https://sf2.mariefrance.fr/wp-content/uploads/sites/5/2017/11/meilleures-produits-bio-2018-produits-all-1.jpg",
-      alt: "Cosmétique & hygiène",
+        "https://www.maghrebmarket.ca/cdn/shop/files/Algeriandates.jpg?v=1741464870&width=1920",
+      alt: "Fruits",
     },
     {
       id: 7,

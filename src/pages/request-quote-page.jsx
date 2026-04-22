@@ -10,6 +10,7 @@ import multipleLogo from "../assets/multiple_logo.svg";
 import fadeLogo from "../assets/fade_logo.svg";
 import countries from "i18n-iso-countries";
 import fr from "i18n-iso-countries/langs/fr.json";
+import { sendMail } from ".";
 const RequestQuotePage = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ const RequestQuotePage = () => {
     email: "",
     phone: "",
     destinationCountry: "",
-    quantity: "",
+    productType: "",
     message: "",
   });
 
@@ -157,7 +158,13 @@ const RequestQuotePage = () => {
                 {t("requestQuote.form.subtitle")}
               </p>
 
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  sendMail(formData);
+                }}
+                className="space-y-6"
+              >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
