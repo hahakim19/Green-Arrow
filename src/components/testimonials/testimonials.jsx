@@ -304,7 +304,7 @@ const Testimonials = () => {
               <div className="text-white/90">{t("stats.2")}</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-white mb-2">8+</div>
+              <div className="text-4xl font-bold text-white mb-2">5+</div>
               <div className="text-white/90">{t("stats.3")}</div>
             </div>
           </div>

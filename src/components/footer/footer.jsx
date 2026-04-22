@@ -56,9 +56,9 @@ const Footer = ({
 
   const contactInfo = {
     address: t("footer.contact_info.address"),
-    phone: "+213 (0) 23 XX XX XX",
-    whatsapp: "+213 (0) 5XX XX XX XX",
-    email: "contact@flecheverte.dz",
+    phone: "+213 541 93 11 28",
+    whatsapp: "+213 541 93 11 28",
+    email: "info@greenarrowexports.com",
     hours: t("footer.contact_info.hours"),
   };
 

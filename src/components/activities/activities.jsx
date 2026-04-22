@@ -23,7 +23,7 @@ const Activities = () => {
       name: t("activities.sectors.1.name"),
       description: t("activities.sectors.1.description"),
       image:
-        "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=600&fit=crop",
+        "https://grey.biskriaciment.com/wp-content/uploads/2022/02/COVER-34.png",
       alt: "Industrie & BTP",
     },
     {
@@ -39,16 +39,16 @@ const Activities = () => {
       name: t("activities.sectors.3.name"),
       description: t("activities.sectors.3.description"),
       image:
-        "https://www.ndm.dz/wp-content/uploads/2024/03/depositphotos_45768711-stock-photo-group-of-office-equipment.webp",
-      alt: "Électronique & IT",
+        "https://media.bazarafrique.com/upload/post/623158dc8aad0297438386.jpg",
+      alt: "Électronique",
     },
     {
       id: 5,
       name: t("activities.sectors.4.name"),
       description: t("activities.sectors.4.description"),
       image:
-        "https://muchpneu.fr/blog/wp-content/uploads/2023/06/selective-focus-view-of-different-mercedes-benz-cars-parked-in-a-row.jpg",
-      alt: "Automobile & pièces",
+        "https://cdn8.futura-sciences.com/a1280/images/difference-fruit-legume.jpg",
+      alt: "Vegetables",
     },
     {
       id: 6,

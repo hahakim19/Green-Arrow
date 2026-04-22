@@ -9,7 +9,7 @@
   },
   "hero": {
     "title": "We facilitate your trade between Algeria and the world",
-    "subtitle": "Import, export, customs clearance and tailor-made logistics. We handle every step so you can focus on your growth.",
+    "subtitle": "Our export service from Algeria supports you through all administrative and logistics procedures to ship your goods to international markets.",
     "cta1": "Request a free quote",
     "cta2": "Discover our services"
   },
@@ -26,12 +26,6 @@
       "3.1": "Recommend our services"
     },
     "items": [
-      {
-        "number": "01",
-        "title": "Goods Import",
-        "description": "Sourcing from Europe, Asia and the Middle East. Supplier selection, price negotiation and complete supply chain management.",
-        "details": "We support you in all stages of your import: search for certified suppliers, negotiation of the best prices, management of international contracts, logistics monitoring and quality control."
-      },
       {
         "number": "02",
         "title": "Algerian Export",
@@ -76,7 +70,7 @@
     "sectors": [
       {
         "name": "Agri-food",
-        "description": "Cereals, oils, processed products, preserves"
+        "description": "Chocolates, cakes and pastry products..."
       },
       {
         "name": "Industry & Construction",
@@ -87,12 +81,12 @@
         "description": "Raw materials, medical devices"
       },
       {
-        "name": "Electronics & IT",
+        "name": "Electronics",
         "description": "Components, telecom equipment, IT materials"
       },
       {
-        "name": "Automotive & Parts",
-        "description": "Spare parts, tires, accessories"
+        "name": "Vegetables",
+        "description": "Fresh, seasonal vegetables carefully selected for their quality, taste, and freshness."
       },
       {
         "name": "Cosmetics & Hygiene",
@@ -140,7 +134,7 @@
     },
     "map": {
       "title": "Our location",
-      "address_detail": "Rue Hassiba Ben Bouali, Algiers Center"
+      "address_detail": "Hai Chouhadas fraction 79 PP N°12 local N°02"
     },
     "quick_note": {
       "title": "Need a quick response?",
@@ -174,7 +168,7 @@
       "consulting": "Consulting & compliance"
     },
     "contact_info": {
-      "address": "Rue Hassiba Ben Bouali, Algiers Center, Algeria",
+      "address": "Hai Chouhadas fraction 79 PP N°12 local N°02, Algeria",
       "hours": "Saturday to Thursday, 8am – 6pm (Algiers time)"
     }
   },
@@ -185,7 +179,7 @@
     "mission": {
       "title": "Our mission",
       "text1": "We facilitate trade between Algeria and the world by offering complete, transparent and tailor-made logistics solutions.",
-      "text2": "We are committed to being the trusted partner of Algerian and international companies, simplifying their import, export and logistics operations.",
+      "text2": "We are committed to being a trusted partner for Algerian and international companies by simplifying their export and logistics operations.",
       "quote": "Your success is our priority. We handle every step so you can focus on your growth.",
       "author": "Mohammed Amrani, CEO"
     },
@@ -204,7 +198,7 @@
     "why_choose": {
       "title": "Why choose Green Arrow?",
       "text1": "Leveraging our expertise and international network, we offer logistics solutions tailored to each client's specific needs. Our commitment to excellence, transparency and innovation makes us the ideal partner for your trade operations between Algeria and the world.",
-      "text2": "With Green Arrow, benefit from a single contact for all your logistics steps: from import to export, including customs clearance and transport. We simplify your processes to allow you to focus on what matters: your company's growth."
+      "text2": "With Green Arrow, benefit from a single point of contact for all your export operations: from preparation to shipping, including customs clearance and international transport. We simplify your processes so you can focus on growing your business."
     },
     "cta": {
       "title": "Ready to work with us?",
@@ -239,7 +233,7 @@
       "email": "Professional email",
       "email_placeholder": "you@company.com",
       "phone": "Phone / WhatsApp",
-      "phone_placeholder": "+213 (0)5XX XXX XXX",
+      "phone_placeholder": "+213 541 93 11 28",
       "service_type": "Service type",
       "urgency_title": "Urgency level",
       "origin_country": "Country of origin",

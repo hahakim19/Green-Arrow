@@ -8,7 +8,8 @@ import aboutLogoEn from "../assets/about_logo_en.svg";
 import aboutLogoAr from "../assets/about_logo_ar.svg";
 import multipleLogo from "../assets/multiple_logo.svg";
 import fadeLogo from "../assets/fade_logo.svg";
-
+import countries from "i18n-iso-countries";
+import fr from "i18n-iso-countries/langs/fr.json";
 const RequestQuotePage = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
@@ -19,12 +20,8 @@ const RequestQuotePage = () => {
     company: "",
     email: "",
     phone: "",
-    serviceType: "",
-    originCountry: "",
     destinationCountry: "",
-    productType: "",
     quantity: "",
-    urgency: "",
     message: "",
   });
 
@@ -49,19 +46,11 @@ const RequestQuotePage = () => {
     { value: "very_urgent", label: t("requestQuote.form.urgency.very_urgent") },
   ];
 
-  const countries = [
-    "Algérie",
-    "France",
-    "Espagne",
-    "Italie",
-    "Allemagne",
-    "Chine",
-    "Turquie",
-    "Émirats Arabes Unis",
-    "États-Unis",
-    "Canada",
-    "Autre",
-  ];
+  countries.registerLocale(fr);
+
+  const countryList = Object.values(
+    countries.getNames("fr", { select: "official" }),
+  ).filter((country) => country !== "Israël");
 
   const handleChange = (e) => {
     setFormData({
@@ -238,69 +227,6 @@ const RequestQuotePage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      {t("requestQuote.form.service_type")}{" "}
-                      <span className="text-red-500">*</span>
-                    </label>
-                    <select
-                      name="serviceType"
-                      value={formData.serviceType}
-                      onChange={handleChange}
-                      className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:border-[#099323] focus:ring-2 focus:ring-[#099323]/20 transition-all"
-                      required
-                    >
-                      <option value="">{t("requestQuote.form.select")}</option>
-                      {serviceTypes.map((type, index) => (
-                        <option key={index} value={type.value}>
-                          {type.label}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      {t("requestQuote.form.urgency_title")}
-                    </label>
-                    <select
-                      name="urgency"
-                      value={formData.urgency}
-                      onChange={handleChange}
-                      className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:border-[#099323] focus:ring-2 focus:ring-[#099323]/20 transition-all"
-                    >
-                      <option value="">{t("requestQuote.form.select")}</option>
-                      {urgencyOptions.map((option, index) => (
-                        <option key={index} value={option.value}>
-                          {option.label}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      {t("requestQuote.form.origin_country")}
-                    </label>
-                    <select
-                      name="originCountry"
-                      value={formData.originCountry}
-                      onChange={handleChange}
-                      className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:border-[#099323] focus:ring-2 focus:ring-[#099323]/20 transition-all"
-                    >
-                      <option value="">
-                        {t("requestQuote.form.select_country")}
-                      </option>
-                      {countries.map((country, index) => (
-                        <option key={index} value={country}>
-                          {country}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
                       {t("requestQuote.form.destination_country")}
                     </label>
                     <select
@@ -312,16 +238,13 @@ const RequestQuotePage = () => {
                       <option value="">
                         {t("requestQuote.form.select_country")}
                       </option>
-                      {countries.map((country, index) => (
+                      {countryList.map((country, index) => (
                         <option key={index} value={country}>
                           {country}
                         </option>
                       ))}
                     </select>
                   </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       {t("requestQuote.form.product_type")}
@@ -334,20 +257,6 @@ const RequestQuotePage = () => {
                       placeholder={t(
                         "requestQuote.form.product_type_placeholder",
                       )}
-                      className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:border-[#099323] focus:ring-2 focus:ring-[#099323]/20 transition-all"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      {t("requestQuote.form.quantity")}
-                    </label>
-                    <input
-                      type="text"
-                      name="quantity"
-                      value={formData.quantity}
-                      onChange={handleChange}
-                      placeholder={t("requestQuote.form.quantity_placeholder")}
                       className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:border-[#099323] focus:ring-2 focus:ring-[#099323]/20 transition-all"
                     />
                   </div>

@@ -9,7 +9,7 @@
   },
   "hero": {
     "title": "Nous facilitons vos échanges commerciaux entre l'Algérie et le monde",
-    "subtitle": "Import, export, dédouanement et logistique sur mesure. Nous gérons chaque étape pour que vous puissiez vous concentrer sur votre croissance.",
+    "subtitle": "Notre service d’export depuis l’Algérie vous accompagne dans toutes les démarches administratives et logistiques pour acheminer vos marchandises vers les marchés internationaux.",
     "cta1": "Demander un devis gratuit",
     "cta2": "Découvrir nos services"
   },
@@ -27,40 +27,34 @@
     "description": "Un seul interlocuteur pour toutes vos opérations commerciales internationales.",
     "items": [
       {
-        "number": "01",
-        "title": "Import de marchandises",
-        "description": "Approvisionnement depuis l'Europe, l'Asie et le Moyen-Orient. Sélection des fournisseurs, négociation des prix et gestion complète de la chaîne.",
-        "details": "Nous vous accompagnons dans toutes les étapes de votre importation : recherche de fournisseurs certifiés, négociation des meilleurs prix, gestion des contrats internationaux, suivi logistique et contrôle qualité."
-      },
-      {
         "number": "02",
         "title": "Export algérien",
-        "description": "Accompagnement des producteurs algériens pour accéder aux marchés internationaux. Documents d'exportation, certifications et mise en relation commerciale.",
-        "details": "Nous aidons les entreprises algériennes à exporter leurs produits vers les marchés internationaux. Notre service inclut l'obtention des certifications nécessaires, la préparation des documents d'exportation et la mise en relation avec des acheteurs étrangers."
+        "description": "Accompagnement des producteurs algériens vers les marchés internationaux.",
+        "details": "Nous aidons les entreprises algériennes à exporter leurs produits en assurant la préparation des documents, l’obtention des certifications nécessaires et la mise en relation avec des acheteurs étrangers."
       },
       {
         "number": "03",
-        "title": "Dédouanement",
-        "description": "Déclarations en douane, gestion des licences d'importation, classement tarifaire.",
-        "details": "Nos experts en douane gèrent vos déclarations en douane, l'obtention des licences d'importation, le classement tarifaire de vos marchandises et la gestion des contentieux douaniers."
+        "title": "Dédouanement export",
+        "description": "Formalités douanières, documents et conformité réglementaire.",
+        "details": "Nous prenons en charge les procédures douanières à l’export, y compris la préparation des documents (facture, liste de colisage, certificat d’origine) et le respect des exigences réglementaires."
       },
       {
         "number": "04",
         "title": "Logistique & transport",
-        "description": "Maritime, aérien ou terrestre. Coordination avec les transporteurs, suivi de cargaison et livraison jusqu'à votre entrepôt.",
-        "details": "Nous coordonnons le transport de vos marchandises par voie maritime, aérienne ou terrestre avec suivi en temps réel et livraison jusqu'à votre entrepôt."
+        "description": "Transport maritime, aérien et terrestre avec suivi complet.",
+        "details": "Nous organisons le transport international de vos marchandises avec un suivi en temps réel et une coordination jusqu’à la livraison finale."
       },
       {
         "number": "05",
-        "title": "Sourcing international",
-        "description": "Vous cherchez un fournisseur fiable ? Nous identifions, vérifions et référençons les meilleurs partenaires pour votre secteur.",
-        "details": "Nous identifions et vérifions des fournisseurs fiables dans le monde entier avec audit des fournisseurs, vérification des certifications et négociation des conditions commerciales."
+        "title": "Développement international",
+        "description": "Recherche d’acheteurs et ouverture de nouveaux marchés.",
+        "details": "Nous identifions des clients potentiels à l’étranger, facilitons les mises en relation B2B et vous accompagnons dans le développement de vos ventes à l’international."
       },
       {
         "number": "06",
-        "title": "Conseil & conformité",
-        "description": "Optimisation de vos flux, conseil en réglementation DCP, assistance aux appels d'offres et accompagnement des investisseurs étrangers.",
-        "details": "Nous offrons des services de conseil pour optimiser vos flux logistiques, vous assister dans les appels d'offres internationaux et vous guider dans la réglementation DCP."
+        "title": "Conseil & conformité export",
+        "description": "Normes, certifications et réglementation internationale.",
+        "details": "Nous vous accompagnons dans la conformité aux normes internationales et dans l’obtention des certifications nécessaires pour exporter vos produits."
       }
     ],
     "cta": {
@@ -76,7 +70,7 @@
     "sectors": [
       {
         "name": "Agroalimentaire",
-        "description": "Céréales, huiles, produits transformés, conserves"
+        "description": "Chocolats, gâteaux, produits pâtissiers…"
       },
       {
         "name": "Industrie & BTP",
@@ -87,12 +81,12 @@
         "description": "Matières premières, dispositifs médicaux"
       },
       {
-        "name": "Électronique & IT",
+        "name": "Électronique",
         "description": "Composants, équipements télécoms, matériels IT"
       },
       {
-        "name": "Automobile & pièces",
-        "description": "Pièces détachées, pneumatiques, accessoires"
+        "name": "Légumes",
+        "description": "Légumes frais et de saison, soigneusement sélectionnés pour leur qualité, leur goût et leur fraîcheur."
       },
       {
         "name": "Cosmétique & hygiène",
@@ -137,7 +131,7 @@
       "email": "Email professionnel",
       "email_placeholder": "vous@entreprise.dz",
       "phone": "Téléphone / WhatsApp",
-      "phone_placeholder": "+213 (0)5XX XXX XXX",
+      "phone_placeholder": "+213 541 93 11 28",
       "operation_type": "Type d'opération",
       "message": "Décrivez votre besoin",
       "message_placeholder": "Décrivez votre projet, vos besoins ou vos questions...",
@@ -156,7 +150,7 @@
     },
     "map": {
       "title": "Notre localisation",
-      "address_detail": "Rue Hassiba Ben Bouali, Alger Centre"
+      "address_detail": "Hai Chouhadas fraction 79 PP N°12 local N°02"
     },
     "quick_note": {
       "title": "Besoin d'une réponse rapide ?",
@@ -190,7 +184,7 @@
       "consulting": "Conseil & conformité"
     },
     "contact_info": {
-      "address": "Rue Hassiba Ben Bouali, Alger Centre, Algérie",
+      "address": "Hai Chouhadas fraction 79 PP N°12 local N°02, Algérie",
       "hours": "Samedi au Jeudi, 8h – 18h (heure d'Alger)"
     }
   },
@@ -201,7 +195,7 @@
     "mission": {
       "title": "Notre mission",
       "text1": "Facilitons les échanges commerciaux entre l'Algérie et le monde en offrant des solutions logistiques complètes, transparentes et sur mesure.",
-      "text2": "Nous nous engageons à être le partenaire de confiance des entreprises algériennes et internationales, en simplifiant leurs opérations d'import, d'export et de logistique.",
+      "text2": "Nous nous engageons à être le partenaire de confiance des entreprises algériennes et internationales, en simplifiant leurs opérations d’export et de logistique.",
       "quote": "Votre succès est notre priorité. Nous gérons chaque étape pour que vous puissiez vous concentrer sur votre croissance.",
       "author": "Mohammed Amrani, DG"
     },
@@ -220,7 +214,7 @@
     "why_choose": {
       "title": "Pourquoi choisir FLÈCHE VERTE ?",
       "text1": "Forts de notre expertise et de notre réseau international, nous offrons des solutions logistiques adaptées aux besoins spécifiques de chaque client. Notre engagement envers l'excellence, la transparence et l'innovation fait de nous le partenaire idéal pour vos opérations commerciales entre l'Algérie et le monde.",
-      "text2": "Avec FLÈCHE VERTE, bénéficiez d'un interlocuteur unique pour toutes vos étapes logistiques : de l'import à l'export, en passant par le dédouanement et le transport. Nous simplifions vos processus pour vous permettre de vous concentrer sur l'essentiel : la croissance de votre entreprise."
+      "text2": "Avec FLÈCHE VERTE, bénéficiez d’un interlocuteur unique pour toutes vos étapes logistiques : de la préparation à l’export, en passant par le dédouanement et le transport international. Nous simplifions vos processus pour vous permettre de vous concentrer sur la croissance de votre entreprise."
     },
     "cta": {
       "title": "Prêt à collaborer avec nous ?",
@@ -243,7 +237,7 @@
       "email": "Email professionnel",
       "email_placeholder": "vous@entreprise.dz",
       "phone": "Téléphone / WhatsApp",
-      "phone_placeholder": "+213 (0)5XX XXX XXX",
+      "phone_placeholder": "+213 541 93 11 28",
       "service_type": "Type de service",
       "urgency_title": "Niveau d'urgence",
       "origin_country": "Pays d'origine",

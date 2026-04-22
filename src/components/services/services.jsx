@@ -17,45 +17,38 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      number: "01",
+      number: "02",
       title: t("services.items.0.title"),
       description: t("services.items.0.description"),
       details: t("services.items.0.details"),
     },
     {
       id: 2,
-      number: "02",
+      number: "03",
       title: t("services.items.1.title"),
       description: t("services.items.1.description"),
       details: t("services.items.1.details"),
     },
     {
       id: 3,
-      number: "03",
+      number: "04",
       title: t("services.items.2.title"),
       description: t("services.items.2.description"),
       details: t("services.items.2.details"),
     },
     {
       id: 4,
-      number: "04",
+      number: "05",
       title: t("services.items.3.title"),
       description: t("services.items.3.description"),
       details: t("services.items.3.details"),
     },
     {
       id: 5,
-      number: "05",
+      number: "06",
       title: t("services.items.4.title"),
       description: t("services.items.4.description"),
       details: t("services.items.4.details"),
-    },
-    {
-      id: 6,
-      number: "06",
-      title: t("services.items.5.title"),
-      description: t("services.items.5.description"),
-      details: t("services.items.5.details"),
     },
   ];
 
@@ -237,7 +230,7 @@ const Services = () => {
                 <div className="space-y-6">
                   <div className="text-center">
                     <div className="text-4xl font-bold text-[#099323] mb-2">
-                      10+
+                      5+
                     </div>
                     <div className="text-gray-600 font-medium">
                       {t("services.stats.1")}

@@ -112,7 +112,7 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen bg-white overflow-hidden">
       {/* Hero Section with Logo */}
-      <div className="relative bg-gradient-to-r from-[#099323] to-[#063a0c] py-16 md:py-24">
+      <div className="relative bg-gradient-to-r from-[#099323] to-[#063a0c] py-16 md:py-24 overflow-hidden">
         <img
           src={multipleLogo}
           alt=""

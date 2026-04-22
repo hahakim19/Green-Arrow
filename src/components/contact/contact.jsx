@@ -17,9 +17,7 @@ const Contact = () => {
   });
 
   const operationTypes = [
-    t("contact.form.operation_types.import"),
     t("contact.form.operation_types.export"),
-    t("contact.form.operation_types.customs"),
     t("contact.form.operation_types.logistics"),
     t("contact.form.operation_types.sourcing"),
     t("contact.form.operation_types.consulting"),
@@ -82,9 +80,9 @@ const Contact = () => {
                 <h3 className="font-semibold text-gray-900 mb-1">
                   {t("contact.phone")}
                 </h3>
-                <p className="text-gray-600 text-sm">+213 (0) 23 XX XX XX</p>
+                <p className="text-gray-600 text-sm"> +213 541 93 11 28</p>
                 <p className="text-gray-600 text-sm">
-                  WhatsApp : +213 (0) 5XX XX XX XX
+                  WhatsApp : +213 541 93 11 28
                 </p>
               </div>
 
@@ -107,7 +105,9 @@ const Contact = () => {
                 <h3 className="font-semibold text-gray-900 mb-1">
                   {t("contact.email")}
                 </h3>
-                <p className="text-gray-600 text-sm">contact@flecheverte.dz</p>
+                <p className="text-gray-600 text-sm">
+                  info@greenarrowexports.com
+                </p>
               </div>
 
               <div className="bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200">
@@ -136,7 +136,7 @@ const Contact = () => {
                   {t("contact.address")}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Rue Hassiba Ben Bouali, Alger Centre, Algérie
+                  Hai Chouhadas fraction 79 PP N°12 local N°02{" "}
                 </p>
               </div>
 
@@ -290,7 +290,7 @@ const Contact = () => {
               </div>
               <div className="h-96 w-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604061093992!2d3.058312315788183!3d36.75287947972649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb3190e0b76a7%3A0x5c8e6c5f5a5c5a5c!2sAlger%20Centre%2C%20Algiers!5e0!3m2!1sen!2sdz!4v1700000000000!5m2!1sen!2sdz"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2961.794574096758!2d-0.5741255245663147!3d35.69536927258269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7e630078d3777b%3A0x5831310675022de7!2sHa%C3%AE%20Chouhadas%20Oran%20Alg%C3%A9rie!5e1!3m2!1sfr!2sdz!4v1776862598925!5m2!1sfr!2sdz"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -327,7 +327,7 @@ const Contact = () => {
                   <p className="text-gray-600 text-sm">
                     {t("contact.quick_note.text")}{" "}
                     <span className="font-semibold text-[#099323]">
-                      +213 (0) 23 XX XX XX
+                      +213 541 93 11 28
                     </span>{" "}
                     {t("contact.quick_note.or")}
                   </p>
